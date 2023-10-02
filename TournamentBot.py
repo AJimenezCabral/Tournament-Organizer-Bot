@@ -1,13 +1,10 @@
-﻿from logging import PlaceHolder
-from typing import List, Optional
+﻿from typing import List, Optional
 import discord
 from discord.app_commands.models import _to_locale_dict
 from discord.components import SelectOption
 from discord.ui import Select, View
 from discord.ext import commands
 import typing
-
-from discord.utils import MISSING
 
 
 intents = discord.Intents.default()
